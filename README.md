@@ -2,11 +2,11 @@
 
 Sering kali ketika memulai bermain pokemon, merasa kebingungan dalam memilih pokemon-pokemon kuat untuk memulai petualangan, bagaimana cara mengatasinya?
 
-<img src="https://github.com/user-attachments/assets/4bad8aab-83b6-48f1-b76e-9f171645d2f8" width="2em">
+<img src="https://github.com/user-attachments/assets/4bad8aab-83b6-48f1-b76e-9f171645d2f8" width="100em">
 
 Inilah pendekatan yang dilakukan untuk memiliki pokemon yang terkuat dalam melakukan petualangan sebagai seorang pokemon Trainer
 
-<img src="https://github.com/user-attachments/assets/d54797d6-da37-4e69-a0cc-8aadc4fe3883" width="2em">
+<img src="https://github.com/user-attachments/assets/d54797d6-da37-4e69-a0cc-8aadc4fe3883" width="100em">
 
 
 ## Pengantar Pokemon EDA
@@ -57,14 +57,15 @@ df = pd.read_csv("https://raw.githubusercontent.com/adisann/EDA-Pokemon/refs/hea
 print(df.head())
 
 ```
-![image](https://github.com/user-attachments/assets/bf835cc5-2a1d-4d3a-9508-2948cb490d3f)
+<img src="https://github.com/user-attachments/assets/bf835cc5-2a1d-4d3a-9508-2948cb490d3f" width="100em">
 
 ## Data Cleaning
 
 ```python
 df.info()
 ```
-![image](https://github.com/user-attachments/assets/3e69cdcc-f928-488c-9afb-202107239d88)
+<img src="https://github.com/user-attachments/assets/3e69cdcc-f928-488c-9afb-202107239d88" width="100em">
+
 
 Ada beberapa data yang memiliki null values, yang dilakukan adalah dengan fillna dengan "None", karena ini merupakan Missing Not at Random dikarenakan datanya missing karena tidak semua pokemon memiliki dual type (dua tipe).
 
