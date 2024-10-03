@@ -96,6 +96,7 @@ df.shape
 ```
 sns.countplot(x=df['generation'],palette='Set2').set(xlabel='Generasi', ylabel='Jumlah Pokemon')
 ```
+
 ![image](https://github.com/user-attachments/assets/b57271fb-9fc9-41f6-84bd-5ef67369d536)
 
 
@@ -108,6 +109,7 @@ Dalam dunia Pokemon, "tipe" mengacu pada klasifikasi elemen atau sifat yang dimi
 
 
 Menampilkan jumlah setiap tipe pokemon untuk single type dan dual types
+
 ```python
 # Menghitung jumlah dari tiap tipe utama dan mengurutkan
 type_counts = df['type1'].value_counts().reset_index()
@@ -127,6 +129,7 @@ ax.set(xlabel='Jumlah Pokemon', ylabel='Tipe Utama Pokemon')
 plt.title('Jumlah Pokemon Berdasarkan Tipe Utama', fontsize=16)
 plt.show()
 ```
+
 ![image](https://github.com/user-attachments/assets/fcbae481-6780-4d0c-a0f6-edbb23c1be27)
 
 ![image](https://github.com/user-attachments/assets/5b6e7e18-a5ea-4f57-81b9-110aa4fff113)
@@ -147,6 +150,7 @@ plt.figure(figsize=(17,8))
 sns.boxplot(data=df, x="type1", y="capture_rate",palette="Set2").set(xlabel='Tipe Pokemon', ylabel='Capture Rate')
 
 ```
+
 ![image](https://github.com/user-attachments/assets/b7b478f3-cc5b-446f-9009-27382e8c181b)
 
 semakin tinggi capture rate maka makin mudah pokemon didapatkan, sebaliknya semakin rendah capture rate maka akan semakin sulit pokemon untuk didapat.
@@ -204,11 +208,15 @@ Kemudian, apakah ada pokemon non-legendary yang memiliki nilai overall_stat yang
 Inilah perbandingan antara pokemon Non-Legendary terkuat, dan Legendary terlemah
 
 Non-Legendary
+
 ![image](https://github.com/user-attachments/assets/4aa997e2-0887-4173-ab2f-5cd1736ae874)
+
 
 VS
 
+
 Legendary
+
 ![image](https://github.com/user-attachments/assets/c669d189-9179-439d-9cad-4ec43d52204e)
 
 
@@ -337,32 +345,39 @@ Sehingga, yang mempengaruhi capture_rate itu adalah overall_stat, begitupula leg
 
 
 **Pokemon Starter Gen 1 (Kanto)**
+
 ![image](https://github.com/user-attachments/assets/272f3dc2-ac51-430a-8457-c462ba43fb5f)
 
 **Pokemon Starter Gen 2 (Johto)**
+
 ![image](https://github.com/user-attachments/assets/24a630bb-fd7b-4fa6-9984-2e6b25bcdec2)
 
 **Pokemon Starter Gen 3 (Hoenn)**
+
 ![image](https://github.com/user-attachments/assets/9fd74359-d9c2-4d8b-b72b-750db953e80d)
 
 **Pokemon Starter Gen 4 (Sinnoh)**
 ![image](https://github.com/user-attachments/assets/c2f5bfca-5ec3-493a-aaad-3f07e9f2f3b3)
 
 **Pokemon Starter Gen 5 (Unova)**
+
 ![image](https://github.com/user-attachments/assets/de198677-259e-4a70-9a58-5195bf6f50a6)
 
 **Pokemon Starter Gen 6 (Kalos)**
+
 ![image](https://github.com/user-attachments/assets/4f912755-06e5-48e4-a160-43d0f5962864)
 
 **Pokemon Starter Gen 7 (Alola)**
+
 ![image](https://github.com/user-attachments/assets/6aaab28b-5f51-40cd-8217-c29be1de791c)
 
 
 ## Kesimpulan
+
 Dari berbagai penjabaran diatas, dapat disimpulkan bahwa pokemon memiliki karakteristik unik masing-masing, banyak aspek yang harus dipertimbangkan untuk menentukan mana pokemon yang terbaik.
 
 
-Berikut beberapa poin kesimpulan yang bisa saya tarik :
+Berikut beberapa poin kesimpulan yang bisa ditarik :
 
 *    gunakan pokemon Mewtwo dan Rayquaza karena mereka merupakan pokemon dengan overall base stat tertinggi
 *    Ada beberapa Pokemon non-legendary yang memiliki overall_stat yang lebih tinggi daripada beberapa Pokemon legendary. Kekuatan relatif sebuah Pokemon tidak hanya ditentukan oleh status legendaris atau non-legendarisnya.
