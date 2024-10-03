@@ -358,6 +358,7 @@ Sehingga, yang mempengaruhi capture_rate itu adalah overall_stat, begitupula leg
 <img src="https://github.com/user-attachments/assets/9fd74359-d9c2-4d8b-b72b-750db953e80d" width="500em">
 
 **Pokemon Starter Gen 4 (Sinnoh)**
+
 <img src="https://github.com/user-attachments/assets/c2f5bfca-5ec3-493a-aaad-3f07e9f2f3b3" width="500em">
 
 **Pokemon Starter Gen 5 (Unova)**
